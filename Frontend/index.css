@@ -1,0 +1,63 @@
+* {
+    /* border: 1px solid black; */
+}
+
+.me-3 {
+    margin-right: 0 !important;
+}
+
+.row>* {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-md-3 {
+    border-right: 1px solid gray;
+    height: 100vh;
+} 
+
+.logo-img {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 14px 16px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #f5c014;
+    font-weight: 500;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #000000;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    padding: 14px 16px;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #000000;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav {
+    padding-left: 15px;
+}
+
+.col-md-9 {
+    background-color: #d9d5d5;
+}
+
+.navbar_container {
+    padding-top: 15px;
+}
